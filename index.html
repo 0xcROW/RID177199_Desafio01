@@ -18,15 +18,15 @@
     </div>
     <div class="infos">
       <div id="info">
-        <h2>850</h2>
+        <h2 id="contador" data-target="850">0</h2>
         <p>empreendimentos construídos</p>
       </div>
       <div id="info">
-        <h2>40</h2>
+        <h2 id="contador" data-target="40">0</h2>
         <p>anos de experiência em mercado</p>
       </div>
       <div id="info">
-        <h2>2,000,000</h2>
+        <h2 id="contador" data-target="2000000">0</h2>
         <p>m² em projetos  construídos</p>
       </div>
     </div>
@@ -41,10 +41,11 @@
     <div class="footer">
       <div id="formulario">
           <h2>Conheça mais sobre nossos serviços:</h2>
-          <form>
-              <input type="text" placeholder="Nome" name="nome"> <br>
-              <input type="email" placeholder="Email" name="email"> <br>
-              <button>Fale Conosco</button>
+          <form action="https://api.sheetmonkey.io/form/s1hNFGZabuj7RoT6VV53hi" method="post">
+              <input type="text" placeholder="Name" name="nome" required> <br>
+              <input type="email" placeholder="Email" name="email" required> <br>
+              <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+              <button type="submit">Fale Conosco</button>
           </form>
       </div>
     </div>
