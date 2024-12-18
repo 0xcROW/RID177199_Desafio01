@@ -1,0 +1,134 @@
+* {
+    font-family: "Inter", serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+.header {
+    background-color: #303030;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-weight: 600;
+    font-size: 60px;
+    width: 1024px;
+    height: 72px;
+    margin-top: 140px;
+    margin-left: 62px;
+}
+
+.header p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    width: 1024px;
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 62px;
+    margin-bottom: 140px;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 70px;
+    background-color: #efefef;
+}
+
+.infos h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 40px;
+}
+
+.content img {
+    width: 510px;
+    height: 605px;
+    border-radius: 30px;
+}
+
+.content #contentText {
+    padding: 5rem;
+}
+
+.content #contentText h2 {
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.content #contentText p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.footer {
+    display: flex;
+    background-color: #303030;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.footer #formulario {
+    padding: 20px;
+    border-bottom: 10px;
+}
+
+
+.footer #formulario form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer #formulario form label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer #formulario form input,
+.footer #formulario form button {
+    margin: 5px 0;
+}
+
+.footer #formulario input {
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    border: 0.25rem;
+    padding: 10px;
+    gap: 0.75rem;
+}
+
+.footer #formulario button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.25rem;
+    padding: 10px;
+    gap: 0.75rem;
+    background-color: #C07212;
+    color: white;
+    cursor: pointer;
+}
+
+.footer #formulario form button:hover {
+    background-color: #8f5714;
+    color: white;
+    transform: scale(1.02);
+}
