@@ -133,3 +133,25 @@
     transform: scale(1.02);
     transition-duration: 0.2s;
 }
+
+.sucessoBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 40px;
+}
+
+.sucessoH2 {
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    max-width: 600px;
+    text-align: center;
+}
+
+.sucessoH3 {
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}

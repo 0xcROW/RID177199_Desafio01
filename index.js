@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     counters.forEach(counter => {
         const target = +counter.getAttribute('data-target');
-        const duration = 1000;
+        const duration = 2000;
         const increment = target / (duration / 16);
 
         const updateCounter = () => {

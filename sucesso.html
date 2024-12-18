@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário cadastrado com sucesso!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const countdownElement = document.getElementById('countdown');
+            let countdown = 3;
+
+            const updateCountdown = () => {
+                countdownElement.innerText = countdown;
+                if (countdown > 0) {
+                    countdown--;
+                    setTimeout(updateCountdown, 1000);
+                } else {
+                    window.location.href = 'index.html';
+                }
+            };
+
+            updateCountdown();
+        });
+    </script>
+</head>
+<body class="sucessoBody">
+    <div>
+        <h2 class="sucessoH2">Agradecemos o interesse em nossos serviços, em até 24 horas um de nossos vendedores entrará em contato!</h2>
+        <h2 class="sucessoH2"></h2>
+    </div>
+    <div>
+        <h3 class="sucessoH3">Você será redirecionado em <span id="countdown">3</span> segundos</h3>
+    </div>
+    <div>
+        <img src="joia.jpg" alt="Um homem com feições super naturais fazendo sinal de positivo com as duas mãos em viés de afirmação por ter submetido seus dados para nossos leads">
+    </div>
+</body>
+</html>
