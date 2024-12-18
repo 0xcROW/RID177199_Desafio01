@@ -131,4 +131,5 @@
     background-color: #8f5714;
     color: white;
     transform: scale(1.02);
+    transition-duration: 0.2s;
 }
