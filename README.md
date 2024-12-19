@@ -6,6 +6,6 @@
 https://rid177199projeto01.netlify.app/index.html
 ------------------------------------------------------------------------------------
 ### Tecnologias:
-HTML, CSS e JavaScript para desenvolvimento;
-Sheet Monkey para integração com formulário e captação de leads;
-Netlify para hospedagem do site estático;
+- HTML, CSS e JavaScript para desenvolvimento;
+- Sheet Monkey para integração com formulário e captação de leads;
+- Netlify para hospedagem do site estático;
